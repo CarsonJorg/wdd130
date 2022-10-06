@@ -1,0 +1,59 @@
+html {
+    background-color:#fca6c9;
+}
+
+body {
+    align-content: center;
+}
+
+p, .title, h3, h1{
+    text-align: center;
+}
+
+.title {
+    font-family: Helvetica, sans-serif;
+    font:bolder;
+    color: white;
+}
+
+img {
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#white {
+    color: white;
+}
+.signature {
+    width: 43%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Helvetica, sans-serif;
+    font-size: small;
+    font-weight: 600;
+}
+
+.quote {
+    font-size: 180%;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+.name {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.box {
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    width: auto;
+    line-height: 30px;
+    margin-left: 17%;
+    font-size: 95%;
+}
+.title:hover {
+    color: black;
+}
