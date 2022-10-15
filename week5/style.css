@@ -1,0 +1,38 @@
+body {
+    width: 70%;
+    margin: 0 auto;
+}
+.top {
+    width: 50%;
+    background-color: red;
+}
+.middle {
+    width: 75%;
+    background-color: blue;
+}
+.bottom {
+    width: 100%;
+    background-color: green;
+}
+.top, .middle, .bottom {
+    text-align: center;
+    margin: 0 auto;
+    padding: .5px;
+}
+.whitespace {
+    height: 100px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+.purple {
+    background-color: purple;
+    padding: .5px;
+    height: 100px;
+}
+.white {
+    background-color: white;
+    padding: 0;
+    height: 100px;
+    width: 75%;
+}
