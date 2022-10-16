@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,17 +8,33 @@ nav a {
     text-align: center;
     color: #7CAFC4;
     text-decoration: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 35px;
 }
 nav a:hover {
-    color: #AD7A99;
+    color: #DC868B;
 }
 .home-title {
     color: #342A21;
     text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #342A21;
     text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+h2 {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #342A21;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -27,11 +45,18 @@ h4 {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
 }
 body {
     background-color: #b8eaff;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #345995;
@@ -43,25 +68,39 @@ nav a:hover {
     background-color: #7CAFC4;
     color: #345995;
     text-decoration: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #342A21;
-    color: #AD7A99;
+    color: #DC868B;
 }
 #background {
     background-color: #345995;
 }
 .msg {
     background-color: #7CAFC4;
+    font-family: 'Nanum Gothic', sans-serif;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: #342A21;
+    font-family: 'Kanit', sans-serif;
 }
 .msg p {
     color: #342A21;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #7CAFC4;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p {
     font-size: 1.2em;
@@ -70,8 +109,11 @@ footer a {
     color: #345995;
     text-decoration: none;
 }
+footer .social img {
+    padding-top: 15px;
+}
 footer a:hover {
-    color: #AD7A99;
+    color: #DC868B;
 }
 footer p a:hover {
     text-decoration: underline;
@@ -81,7 +123,15 @@ footer p a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.mountains {
+    margin-top: 75px;
+    margin-bottom: 150px;
 }
