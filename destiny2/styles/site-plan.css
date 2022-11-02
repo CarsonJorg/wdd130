@@ -3,7 +3,13 @@ Any spaces in your font name should be replaced with a +.
 Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
-
+@font-face {
+  font-family: 'andybold';
+  src: url('./webfontkit-20221031-165920/andyb-webfont.woff2') format('woff2'),
+       url('./webfontkit-20221031-165920/andyb-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} 
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #605770   ;
@@ -13,7 +19,7 @@ Fonts are separated by a | */
   --accent3-color: #ece8cb;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: 'Nanum Gothic', sans-serif;
+  --heading-font: 'andybold', sans-serif;
   --paragraph-font: 'Nanum Gothic', sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
