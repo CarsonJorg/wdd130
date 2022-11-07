@@ -199,3 +199,10 @@ nav a:hover {
   width: 50%;
   height: 50%;
 }
+.home-page-img {
+  max-width: 20%;
+  max-height: 125px;
+}
+.home-page-img-box {
+  display: flex;
+}
