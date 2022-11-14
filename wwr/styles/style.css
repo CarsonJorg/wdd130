@@ -196,13 +196,13 @@ footer p a:hover {
 }
 .idaho-river-img, .utah-river-img, .arizona-river-img {
     max-width: 700px;
-    border: 10px solid #345995;
+    border: .6em solid #342A21;
     border-radius: 1.5em;
 }
 .rivers-title-box {
     text-align: center;
     font-size: 45px;
-    border: 3px solid #342A21;
+    border: 20px solid #342A21;
     border-radius: .5em;
     width: 85%;
     margin: 25px auto;
@@ -211,8 +211,8 @@ footer p a:hover {
     padding: 0;
 }
 .rivers-title {
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin-top: 0px;
+    margin-bottom: 9px;
     font-family: 'Kanit', sans-serif;
 }
 .idaho-river {
@@ -221,6 +221,7 @@ footer p a:hover {
     margin: 25px auto;
     width: 90%;
     display: grid;
+    background-color: #7CAFC4;
 }
 .idaho-river-img {
     grid-column: 6/12;
@@ -234,6 +235,7 @@ footer p a:hover {
     color: #DC868B;
     background-color: #345995;
     border-radius: .5em;
+    border: .15em solid #342A21;
     margin: 0 40px;
     font-family: 'Kanit', sans-serif;
 }
@@ -242,6 +244,11 @@ footer p a:hover {
     grid-row: 4/10;
     font-size: 27px;
     margin: 15px;
+    background-color: #345995;
+    border-radius: .5em;
+    border: .3em solid #342A21;
+    color: #e1f6ff;
+    padding: 15px;
 }
 .utah-river {
     border: 20px solid #342A21;
@@ -249,11 +256,12 @@ footer p a:hover {
     margin: 25px auto;
     width: 90%;
     display: grid;
+    background-color: #7CAFC4;
 }
 .utah-river-img {
     grid-column: 1/6;
     grid-row: 1/12;
-    margin: 50px 15px 50px 0px;
+    margin: 50px 0px 50px 15px;
 }
 .utah-river-title {
     grid-column: 6/12;
@@ -262,6 +270,7 @@ footer p a:hover {
     color: #DC868B;
     background-color: #345995;
     border-radius: .5em;
+    border: .15em solid #342A21;
     margin: 0 40px;
     font-family: 'Kanit', sans-serif;
 }
@@ -270,6 +279,11 @@ footer p a:hover {
     grid-row: 3/11;
     font-size: 27px;
     margin: 15px;
+    background-color: #345995;
+    border-radius: .5em;
+    border: .3em solid #342A21;
+    color: #e1f6ff;
+    padding: 15px;
 }
 .arizona-river {
     border: 20px solid #342A21;
@@ -277,6 +291,7 @@ footer p a:hover {
     margin: 25px auto;
     width: 90%;
     display: grid;
+    background-color: #7CAFC4;
 }
 .arizona-river-img {
     grid-column: 6/12;
@@ -290,6 +305,7 @@ footer p a:hover {
     color: #DC868B;
     background-color: #345995;
     border-radius: .5em;
+    border: .15em solid #342A21;
     margin: 0 40px;
     font-family: 'Kanit', sans-serif;
 }
@@ -298,6 +314,11 @@ footer p a:hover {
     grid-row: 4/10;
     font-size: 27px;
     margin: 15px;
+    background-color: #345995;
+    border-radius: .5em;
+    border: .3em solid #342A21;
+    color: #e1f6ff;
+    padding: 15px;
 }
 
 
