@@ -194,6 +194,128 @@ footer p a:hover {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #342A21;
 }
+.idaho-river-img, .utah-river-img, .arizona-river-img {
+    max-width: 700px;
+    border: 10px solid #345995;
+    border-radius: 1.5em;
+}
+.rivers-title-box {
+    text-align: center;
+    font-size: 45px;
+    border: 3px solid #342A21;
+    border-radius: .5em;
+    width: 85%;
+    margin: 25px auto;
+    background-color: #345995;
+    color: #DC868B;
+    padding: 0;
+}
+.rivers-title {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: 'Kanit', sans-serif;
+}
+.idaho-river {
+    border: 20px solid #342A21;
+    border-radius: 1em;
+    margin: 25px auto;
+    width: 90%;
+    display: grid;
+}
+.idaho-river-img {
+    grid-column: 6/12;
+    grid-row: 1/12;
+    margin: 50px 15px 50px 0px;
+}
+.idaho-river-title {
+    grid-column: 1/6;
+    grid-row: 3/4;
+    text-align: center;
+    color: #DC868B;
+    background-color: #345995;
+    border-radius: .5em;
+    margin: 0 40px;
+    font-family: 'Kanit', sans-serif;
+}
+.idaho-river-p {
+    grid-column: 1/6;
+    grid-row: 4/10;
+    font-size: 27px;
+    margin: 15px;
+}
+.utah-river {
+    border: 20px solid #342A21;
+    border-radius: 1em;
+    margin: 25px auto;
+    width: 90%;
+    display: grid;
+}
+.utah-river-img {
+    grid-column: 1/6;
+    grid-row: 1/12;
+    margin: 50px 15px 50px 0px;
+}
+.utah-river-title {
+    grid-column: 6/12;
+    grid-row: 2/3;
+    text-align: center;
+    color: #DC868B;
+    background-color: #345995;
+    border-radius: .5em;
+    margin: 0 40px;
+    font-family: 'Kanit', sans-serif;
+}
+.utah-river-p {
+    grid-column: 6/12;
+    grid-row: 3/11;
+    font-size: 27px;
+    margin: 15px;
+}
+.arizona-river {
+    border: 20px solid #342A21;
+    border-radius: 1em;
+    margin: 25px auto;
+    width: 90%;
+    display: grid;
+}
+.arizona-river-img {
+    grid-column: 6/12;
+    grid-row: 1/12;
+    margin: 50px 15px 50px 0px;
+}
+.arizona-river-title {
+    grid-column: 1/6;
+    grid-row: 3/4;
+    text-align: center;
+    color: #DC868B;
+    background-color: #345995;
+    border-radius: .5em;
+    margin: 0 40px;
+    font-family: 'Kanit', sans-serif;
+}
+.arizona-river-p {
+    grid-column: 1/6;
+    grid-row: 4/10;
+    font-size: 27px;
+    margin: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
