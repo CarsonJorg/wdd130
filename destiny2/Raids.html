@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Destiny 2 Guide</title>
+</head>
+<body>
+    <nav>
+        <div id="mySidebar" class="sidebar" onmouseover="toggleSidebar()" onmouseout="toggleSidebar()">
+            <a href="./index.html"><img class="nav-icon" src="./images/black-logo2.png" alt="link to the homepage"><span class="icon-text">Home</span></a><br>
+            <a href="#"><img class="nav-icon" src="./images/class-logos.png" alt="link to the classes guide"><span class="icon-text">Classes</span></a><br>
+            <a href="./Raids.html"><img class="nav-icon" src="./images/raid-logo.png" alt="link to the raid guide"><span class="icon-text"></span>Raids</span></a><br>
+            <a href="#"><img class="nav-icon" src="./images/vanguard.PNG" alt="link to the vanguard guide"><span class="icon-text"></span>Vanguard<span></a><br>
+            <a href="#"><img class="nav-icon" src="./images/gambit.PNG" alt="link to the gambit guide"><span class="icon-text"></span>Gambit<span></a><br>
+            <a href="#"><img class="nav-icon" src="./images/crucible.PNG" alt="link to the crucible guide"><span class="icon-text"></span>Crucible<span></a>
+          </div>
+    </nav>
+    <script>
+        var mini = true;
+
+        function toggleSidebar() {
+  if (mini) {
+    console.log("opening sidebar");
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    this.mini = false;
+  } else {
+    console.log("closing sidebar");
+    document.getElementById("mySidebar").style.width = "112px";
+    document.getElementById("main").style.marginLeft = "112px";
+    this.mini = true;
+  }
+}
+    </script>
+    <div id="main">
+        <h1 class="raid-header">Raids</h1>
+        <div class="gos">
+            <img class="raid-logo" src="./images/Garden-of-Salvation.png" alt="">
+        </div>
+        <div class="lw">
+            <img class="raid-logo" src="./images/Last-Wish.png" alt="">
+        </div>
+        <div class="dsc">
+            <img class="raid-logo" src="./images/deep-stone-crypt.png" alt="">
+        </div>
+        <div class="vog">
+            <img class="raid-logo" src="./images/vault-of-glass.png" alt="">
+        </div>
+        <div class="votd">
+            <img class="raid-logo" src="./images/image.png" alt="">
+        </div>
+        <div class="kf">
+            <img class="raid-logo" src="./images/kings-fall.png" alt="">
+        </div>
+    </div>
+</body>
