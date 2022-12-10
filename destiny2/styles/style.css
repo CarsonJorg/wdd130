@@ -51,7 +51,7 @@ main .sidebar {
     margin-right: 30px;
 }
 #main {
-    padding: 16px;
+    padding: 32px;
     margin-left: 112px;
     transition: margin-left 0.5s;
     display: grid;
@@ -85,37 +85,8 @@ body {
     font-family: "andy-bold";
     color: #242423;
 }
-.class-home-img {
-    width: 70%;
-    margin: 0 15%;
-}
-.raid-home-img {
-    width: 70%;
-    margin: 0 15%;
-}
-.vanguard-home-img {
-    width: 70%;
-    margin: 0 15%;
-}
-.gambit-home-img {
-    width: 70%;
-    margin: 0 15%;
-}
-.crucible-home-img {
-    width: 70%;
-    margin: 0 15%;
-}
-.placeholder1-home-img {
-    width: 70%;
-    margin: 0 15%;
-}
-.placeholder2-home-img {
-    width: 70%;
-    margin: 0 15%;
-}
-.placeholder3-home-img {
-    width: 70%;
-    margin: 0 15%;
+.link-message {
+    margin: 0;
 }
 
 .home-header {
@@ -124,7 +95,6 @@ body {
     margin: 20px auto 30px;
     padding: 0;
     display: flex;
-    grid-template-columns: repeat(12, 1fr);
     border: solid #19180a 5px;
     width: 98%;
     text-align: center;
@@ -137,6 +107,7 @@ body {
     height: 100px;
     text-align: center;
 }
+
 .home-info {
     grid-column: 1/13;
     grid-row: 2/3;
@@ -146,57 +117,69 @@ body {
     width: 800px;
     margin: 0px auto 30px;
 }
+
 .class-guide {
-    margin: auto;
+    margin: 0 auto;
     grid-column: 1/4;
     grid-row: 4/5;
 }
 .raid-guide {
-    margin: auto;
+    margin: 0 auto;
     grid-column: 4/7;
     grid-row: 4/5;
 }
 .vanguard-guide {
-    margin: auto;
+    margin: 0 auto;
     grid-column: 7/10;
     grid-row: 4/5;
 }
 .gambit-guide {
-    margin: auto;
+    margin: 0 auto;
     grid-column: 10/13;
     grid-row: 4/5;
 }
 .crucible-guide {
-    margin: auto;
+    margin: 0 auto;
     grid-column: 1/4;
     grid-row: 5/6;
 }
 .placeholder1 {
-    margin: auto;
+    margin: 0 auto;
     grid-column: 4/7;
     grid-row: 5/6;
 }
 .placeholder2 {
-    margin: auto;
+    margin: 0 auto;
     grid-column: 7/10;
     grid-row: 5/6;
 }
 .placeholder3 {
-    margin: auto;
+    margin: 0 auto;
     grid-column: 10/13;
     grid-row: 5/6;
 }
-#main h2 {
-    font-size: 45px;
+
+.home-img {
+    width: 70%;
+    margin: 0 15%;
+}
+h2 {
+    font-size: 35px;
     text-align: center;
     margin: 0 0 20px;
+}
+.subtext p {
+    width: 270px;
 }
 .subtext {
     font-size: 30px;
     text-align: center;
-    margin: 10px 40px 20px;
-    width: 300px;
+    margin: 10px auto 20px;
+    width: 90%;
 }
+
+/* Raid Page */
+
 .raid-header {
     grid-column: 1/13;
     grid-row: 1/2;
@@ -291,6 +274,89 @@ body {
     grid-column: 10/13;
     grid-row: 3/4;
 }
+
+/* Garden of Salvation Guide */
+
+.gos-header {
+    grid-column: 1/13;
+    grid-row: 1/2;
+    margin: 20px auto 0;
+    padding: 0;
+    display: flex;
+    border: solid #19180a 5px;
+    width: 98%;
+    text-align: center;
+    padding: 5px;
+}
+.gos-header h1 {
+    font-size: 90px;
+    padding: 10px 0 0;
+    margin: auto;
+    height: 100px;
+    text-align: center;
+}
+.header-gos {
+    height: 95px;
+    margin: auto;
+}
+
+.block {
+    grid-column: 1/13;
+    display: block;
+}
+.block p {
+    font-size: 23px;
+    margin: 12px 0 12px 50px;
+    max-width: 65%;
+}
+.gos-heading {
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.gos-img {
+    width: 48%;
+    margin: auto;
+}
+.arrow {
+    width: 40px;
+    height: 40px;
+    margin: auto 0;
+}
+.img1 {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1350px) {
     .raid-header {
         display: flex;
@@ -338,5 +404,53 @@ body {
     .placeholder5 {
         grid-column: 5/9;
         grid-row: 4/5;
+    }
+
+    .class-guide {
+        margin: 0 auto;
+        grid-column: 1/5;
+        grid-row: 4/5;
+    }
+    .raid-guide {
+        margin: 0 auto;
+        grid-column: 5/9;
+        grid-row: 4/5;
+    }
+    .vanguard-guide {
+        margin: 0 auto;
+        grid-column: 9/13;
+        grid-row: 4/5;
+    }
+    .gambit-guide {
+        margin: 0 auto;
+        grid-column: 1/5;
+        grid-row: 5/6;
+    }
+    .crucible-guide {
+        margin: 0 auto;
+        grid-column: 5/9;
+        grid-row: 5/6;
+    }
+    .placeholder1 {
+        margin: 0 auto;
+        grid-column: 9/13;
+        grid-row: 5/6;
+    }
+    .placeholder2 {
+        display: none;
+    }
+    .placeholder3 {
+        display: none;
+    }
+}
+@media screen and (max-width: 1076px) {
+    .header-gos {
+        display: none;
+    }
+}
+@media screen and (max-width: 900px) {
+    .gos-header h1 {
+        font-size: 65px;
+        height: 75px;
     }
 }
