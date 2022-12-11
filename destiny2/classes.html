@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Class Guide</title>
+</head>
+<body>
+    <nav>
+        <div id="mySidebar" class="sidebar" onmouseover="toggleSidebar()" onmouseout="toggleSidebar()">
+            <a href="./index.html"><img class="nav-icon" src="./images/black-logo2.png" alt="link to the homepage"><span class="icon-text">Home</span></a><br>
+            <a href="#"><img class="nav-icon" src="./images/class-logos.png" alt="link to the classes guide"><span class="icon-text">Classes</span></a><br>
+            <a href="./Raids.html"><img class="nav-icon" src="./images/raid-logo.png" alt="link to the raid guide"><span class="icon-text"></span>Raids</span></a><br>
+            <a href="#"><img class="nav-icon" src="./images/vanguard.PNG" alt="link to the vanguard guide"><span class="icon-text"></span>Vanguard*<span></a><br>
+            <a href="#"><img class="nav-icon" src="./images/gambit.PNG" alt="link to the gambit guide"><span class="icon-text"></span>Gambit*<span></a><br>
+            <a href="#"><img class="nav-icon" src="./images/crucible.PNG" alt="link to the crucible guide"><span class="icon-text"></span>Crucible*<span></a>
+          </div>
+    </nav>
+    <script>
+        var mini = true;
+
+        function toggleSidebar() {
+  if (mini) {
+    console.log("opening sidebar");
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    this.mini = false;
+  } else {
+    console.log("closing sidebar");
+    document.getElementById("mySidebar").style.width = "112px";
+    document.getElementById("main").style.marginLeft = "112px";
+    this.mini = true;
+  }
+}
+    </script>
+        <div id="main">
+            <div class="class-header">
+                <img src="./images/warlock.PNG" alt="warlock class symbol" class="warlock-header">
+                <img src="./images/hunter.PNG" alt="hunter class symbol" class="hunter-header">
+                <img src="./images/titan.PNG" alt="titan class symbol" class="titan-header">
+                <h1>Classes</h1>
+                <img src="./images/titan.PNG" alt="titan class symbol" class="titan-header">
+                <img src="./images/hunter.PNG" alt="hunter class symbol" class="hunter-header">
+                <img src="./images/warlock.PNG" alt="warlock class symbol" class="warlock-header">
+            </div>
+            <div class="titan">
+                <img src="./images/titan.PNG" alt="titan class symbol" class="symbol-name">
+                <h1 class="class-name">Titan</h1>
+                <img src="./images/titan.PNG" alt="titan class symbol" class="symbol-name">
+            </div>
+            <div class="hunter">
+                <img src="./images/hunter.PNG" alt="hunter class symbol" class="symbol-name">
+                <h1 class="class-name">Hunter</h1>
+                <img src="./images/hunter.PNG" alt="hunter class symbol" class="symbol-name">
+            </div>
+            <div class="warlock">
+                <img src="./images/warlock.PNG" alt="warlock class symbol" class="symbol-name">
+                <h1 class="class-name">Warlock</h1>
+                <img src="./images/warlock.PNG" alt="warlock class symbol" class="symbol-name">    
+            </div>
+            <div class="hunter-portrait">
+                <img class="portrait" src="./images/Class Guide/hunter-portrait.jpg" alt="Hunter Portrait">
+                <h1 class="sub">Sub-Classes</h1>
+            </div>
+            <div class="titan-portrait">
+                <img class="portrait" src="./images/Class Guide/titan-portrait.jpg" alt="Titan Portrait">
+                <h1 class="sub">Sub-Classes</h1>
+            </div>
+            <div class="warlock-portrait">
+                <img class="portrait" src="./images/Class Guide/warlock-portrait.jpg" alt="Warlock Portrait">
+                <h1 class="sub">Sub-Classes</h1>
+            </div>
+            <div class="hunt-sub">
+                <img src="./images/Class Guide/hunter-arc.png" alt="" class="sub-img">
+                <img src="./images/Class Guide/hunter-void.png" alt="" class="sub-img">
+                <img src="./images/Class Guide/hunter-solar.png" alt="" class="sub-img">
+                <img src="./images/Class Guide/hunter-stasis.png" alt="" class="sub-img">
+            </div>
+            <div class="tit-sub">
+                <img src="./images/Class Guide/titan-arc.png" alt="" class="sub-img">
+                <img src="./images/Class Guide/titan-void.png" alt="" class="sub-img">
+                <img src="./images/Class Guide/titan-solar.png" alt="" class="sub-img">
+                <img src="./images/Class Guide/titan-stasis.png" alt="" class="sub-img">
+            </div>
+            <div class="war-sub">
+                <img src="./images/Class Guide/warlock-arc.png" alt="" class="sub-img">
+                <img src="./images/Class Guide/warlock-void.png" alt="" class="sub-img">
+                <img src="./images/Class Guide/warlock-solar.png" alt="" class="sub-img">
+                <img src="./images/Class Guide/warlock-stasis.png" alt="" class="sub-img">
+            </div>
+<!--
+            <div class="info">
+                <div class="hunter-info">
+                    <h1>Hunter Information</h1>
+                </div>
+            </div>
+        -->
+        </div>
+    </body>
+</html>
